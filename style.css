@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'CherryBomb', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(255, 0, 221, 0.781)),url(images/background.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    background: #000;
+}
+.logo{
+    text-indent: -999999px;
+    background: url(images/logo.png.png);
+    width: 100000px;
+    height: 30px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ff07d6;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.far-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/**************************end of navigation bar*****************************/
+
+
+
+/*************************opening of banner section*************************/
+
+#banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(255, 0, 221, 0.781));
+    padding-top: 5%;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 750;
+    margin-top: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(255, 0, 221, 0.781));
+}
+
+#banner a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 20px;
+    background: #ff07d6;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;;
+}
+
+.bottom-img{
+    
+    width: 100%;
+
+}
+
+/********************end of banner section****************************/
+
+
+
+/***********************opening of blog section****************************/
+
+#services{
+    padding: 80px 0;
+}
+
+.service-img{
+    width: 300px;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 15px;
+    background: #ff07d6;
+    color: #fff;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    height: 250px;
+
+}
+
+.services{
+    padding: 40px;
+    color: #fff;
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.title-banner::before{
+    content: '';
+
+    color: #fff;
+    height: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(50px);
+}
+
+.title-banner::after{
+    content: '';
+
+    color: #fff;
+    height: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#services .btn-primary{
+    box-shadow: none;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image:linear-gradient(to right,#ff07d6,
+    #9879d2);
+    color: #fff;
+}
+
+/****************************end of blog section**************************/
+
+/****************************opening of about us section**************************/
+
+#about-us{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(255, 0, 221, 0.781));
+    color: #fff;
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li{
+    margin: 10px 0;
+}
+
+#about-us ul li{
+    margin: 20px;
+}
+
+/****************************end of about us section**************************/
+
+
+/****************************opening of members section**************************/
+
+#testimonials{
+    margin: 100px 0;
+}
+
+.testimonials{
+    border-left: 4px solid;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    color: #fff;
+}
+
+.testimonials img{
+    height: 40px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 50px 60px;
+    color: #fff;
+}
+
+.user-detail{
+    display: inline-block;
+    font-size: 10px;
+    color: #fff;
+}
+
+/****************************end of members section**************************/
